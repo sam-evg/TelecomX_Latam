@@ -1,0 +1,100 @@
+# 📊 Telecom X – Análisis de Evasión de Clientes (Churn)
+
+Este proyecto forma parte del **Desafío de Ciencia de Datos de Alura LATAM** y tiene como objetivo principal analizar los factores que influyen en la **evasión de clientes (churn)** de la empresa ficticia **Telecom X**.
+
+Se realiza un análisis exploratorio completo del dataset, limpieza, visualización de datos y descubrimiento de patrones que podrían explicar por qué ciertos clientes cancelan sus servicios.
+
+---
+
+## 📁 Contenido del proyecto
+
+- `TelecomX_Data.json`: archivo JSON con los datos originales de clientes
+- `telecom_churn_analysis.ipynb`: notebook de Google Colab con todo el análisis paso a paso
+- `README.md`: este archivo con documentación del proyecto
+- `resumen_resultados.xlsx` (opcional): exportación de tablas clave para informes o presentaciones
+
+---
+
+## ✅ Objetivos del proyecto
+
+- Aplicar técnicas de limpieza, transformación y análisis de datos reales
+- Identificar patrones de cancelación de servicio (churn)
+- Visualizar tendencias por tipo de cliente y comportamiento
+- Proponer recomendaciones estratégicas basadas en datos
+
+---
+
+## 🚀 Tecnologías utilizadas
+
+- Python 3.11
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Google Colab
+
+---
+
+## 🧹 Limpieza de datos
+
+- Expansión de columnas anidadas (`customer`, `phone`, `internet`, `account`)
+- Conversión de valores `"Yes"` / `"No"` a `1` / `0`
+- Manejo de valores faltantes
+- Creación de nuevas variables (`cuentas_diarias`, `cantidad_servicios`)
+- Renombramiento de columnas técnicas a nombres en español
+
+---
+
+## 📊 Análisis Exploratorio de Datos (EDA)
+
+Incluye:
+
+- Distribución de clientes que se fueron vs los que permanecen
+- Comparación de abandono por tipo de contrato, método de pago y servicios contratados
+- Boxplots y estadísticas agrupadas por `abandono`
+- Análisis opcional de **correlación** entre variables numéricas y abandono
+
+---
+
+## 🔍 Principales hallazgos
+
+- Los contratos mensuales presentan mayor tasa de evasión
+- Clientes con pocos servicios contratados abandonan con mayor frecuencia
+- El gasto total y la antigüedad están relacionados con la permanencia
+
+---
+
+## 📌 Cómo ejecutar este proyecto
+
+1. Abre el archivo `telecom_churn_analysis.ipynb` en Google Colab
+2. Asegúrate de tener conexión a internet (el JSON se carga desde GitHub)
+3. Ejecuta cada celda en orden
+4. Explora los resultados y gráficos generados
+
+---
+
+## ⚠️ Requisitos
+
+Este proyecto se ejecuta completamente en **Google Colab**, por lo tanto:
+
+- No es necesario instalar nada en tu máquina local
+- Solo se requiere un navegador y cuenta de Google
+
+---
+
+## 📬 Contacto
+
+Este proyecto fue desarrollado como parte del desafío de Ciencia de Datos de Alura Latam.  
+Para dudas, sugerencias o colaboración:
+
+**Nombre:** [Tu nombre aquí]  
+**LinkedIn:** [Tu enlace de LinkedIn aquí]  
+**Correo:** [Tu email profesional aquí]
+
+---
+
+## 🏁 Estado del proyecto
+
+✅ Proyecto finalizado y funcional  
+🧪 Listo para exportar a PDF o usar como base para un modelo predictivo
+
